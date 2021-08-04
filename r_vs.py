@@ -10,7 +10,8 @@ clip = VideoFileClip(vv)
 # rotating clip by 45 degree
 cc = int(input('Enter rotation in degree ([-] to rotate counter clockwize): '))
 if cc=='': cc=-90
-clip = clip.rotate(cc)
+#clip = clip.rotate(cc)
+clip.rotation = cc
 oo = input('Enter output Filename: ')
 if oo=='':oo='output'
 else: oo=oo.replace('.mp4','')

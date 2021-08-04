@@ -1,7 +1,7 @@
 
 # Import everything needed to edit video clips
 from moviepy.editor import VideoFileClip
-print('Video rotator By: tfaxmail@gmail.com')
+print('Video rotator By: safayethossain775@gmail.com')
 # loading video dsa gfg intro video
 vv = input('Enter File Location: ')
 if vv=='': exit()
